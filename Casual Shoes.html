@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Sneaker Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Casual Shoes.css">
+    <link rel="stylesheet" href="ImageSlider2.css">
+    <link rel="stylesheet" href="ProductList.css">
+</head>
+<body>  
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navTop">
+                <div class="navItem">
+                    <div class="LOGO">CATALYST  SNEAKERS</div>
+                </div>
+                <div class="navItem" id="SearchBar">
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Name of Shoes">
+                        <button type="button" id="search-button"><i class="fa fa-search" style="font-size:21px"></i></button>
+                      </div>
+
+                      <div id="search-results"></div>
+                </div>
+                
+            </div>
+            <div class="shopping">
+                <i class="fa fa-cart-shopping fa-xl" id="CartIcon"> </i>
+                <span class="quantity">0</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <a href="E-commerce.html" class="menuItem" id="HOME">HOME</a>
+            <a class="menuItem">NEW ARRIVALS</a>
+            <a class="menuItem">SPORTS</a>
+            <a class="menuItem">CASUAL SHOES</a>
+        </div>
+    </nav>
+
+    <div class="CartCheck">
+        <span class="CartExit">X</span>
+        <span class="FinalCheck">CHECK OUT</span>
+        <h3 class="CartTitle">SNEAKER CART</h3>
+
+        <div class="cart-items"></div> 
+    </div>
+    
+    <span class="Title">CASUAL SHOES</span>
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item" style="background-image: url(img/Casual/JordanTWhite.jpeg);">
+                <div class="content">
+                  
+                    <div class="des" id="Jdesc">The Air Jordan 1 Low Triple White is a clean and classic sneaker with a simple all-white leather upper. You can wear this with any style you wish every day.</div>
+                   <button class="JMore" id="jordan">See More</button>   
+                </div>
+                
+            </div>
+            
+             <div class="item" style="background-image: url(img/Casual/AirMax.jpg);">
+                  <div class="content">
+                   
+                    <div class="des" id="Mdesc">
+                        Nike Air Max 90 shoes are known for their visible air cushioning units, offering both comfort and a signature look. this sneakers are suitable for wide footed people</div>
+                        <button class="MMore" id="max">See More</button>  
+                  </div>
+                  
+             </div>
+
+             <div class="item" style="background-image: url(img/Casual/VejaEspelar.png);">
+                   <div class="content">
+                 
+                  <div class="des" id="Vdesc">
+                    Veja Esplar sneakers are a sustainable and stylish option, featuring a low-top silhouette made from eco-friendly materials.
+                  </div>
+                    <button class="VMore" id="veja">See More</button>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(img/Casual/AsicsGelKeyano.jpg);">
+                <div class="content">
+                 
+                  <div class="des" id="Adesc">Asics Gel Kayano is a popular running shoe series known for its plush cushioning and stability features.</div>
+                  <button class="AMore" id="asics">See More</button>
+                </div>
+               
+            </div>
+
+            <div class="item" style="background-image: url(img/Casual/Gazelle\ Preloved\ Ink.jpeg);">
+                <div class="content" >
+                  
+                  <div class="des" id="Gdesc">The Adidas Gazelle Pre Loved Ink offers a vintage twist on a classic silhouette with a muted blue upper.</div>
+                  <button class="GMore" id="gaz">See More</button> 
+                </div>
+                 
+            </div>
+
+            <div class="item" style="background-image: url(img/Casual/PumaSuede.jpeg);">
+                <div class="content">
+                   
+                  <div class="des" id="Pdesc">A timeless icon, the Puma Suede boasts a simple yet sophisticated design crafted from premium suede.</div>
+                  <button class="PMore" id="puma">See More</button> 
+                </div>
+                
+            </div>
+
+        </div>
+        
+    <div class="button">
+    <button class="prev"><i class="fa fa-angle-left" style="font-size:2rem"></i></button>
+    <button class="next"><i class="fa fa-angle-right" style="font-size:2rem"></i></button>
+</div>    
+  </div>
+  
+
+
+  <div class="AsicsCard">
+       
+    <div class="ProdPic">
+        <img src="img/Casual/AsicsGelKeyano.jpg" alt="" id="img1">
+    </div>
+    
+    <div class="DetailCard" id="ADetailCard">
+        <span class="ProdName" id="AProdName">Asics Gel Kayano</span>
+        <p class="ProdDesc" id="AProdDesc">Asics Gel Kayano is a line of running shoes known for its versatility and exceptional stability, making it a great choice for people who overpronate or need extra support during casual event. The latest version, the Gel Kayano 31, boasts a new 4D Guidance System for a smoother heel-to-toed transition.</p>
+        <span class="SizeTitle" id="ASTitle">Sizes:</span>
+        <div class="ShoeSizes" id="AShoeSize">
+
+            <div class="FSize">38</div >
+            <div  class="FSize">39</div >
+            <div  class="FSize">40</div >
+            <div  class="FSize">41</div >
+            <div   class="FSize">42</div >
+            <div  class="FSize">43</div >
+            <div  class="FSize" >44</div >
+            <div  class="FSize">45</div >
+            
+        </div>
+        <div class="Price" id="APrice">
+            <span class="PriceTitle" id="APTitle">Price: <span class="Amount">$159.99</span></span>
+        </div>
+        <div class="ProdButtons" id="AProdButtons">
+            <button class="BuyNow" id="ABuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="AAdd"> ADD TO CART</button>
+        </div>
+        <div class="Close">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="JordanCard">
+       
+    <div class="ProdPic">
+        <img src="img/Casual/JordanCard.jpeg" alt="" id="img2">
+    </div>
+    
+    <div class="DetailCard" id="JDetail">
+        <span class="ProdName" id="JProdName">Jordan 1 Low Triple White</span>
+        <p class="ProdDesc" id="JProdDesc">
+            The Air Jordan 1 Low Triple White boasts a clean and classic look with its entire shoe dressed in pristine white. From the smooth leather upper with perforations for breathability to the iconic Swoosh and overlays, all bathed in white, this sneaker offers a timeless aesthetic.  This versatility, along with its comfortable Air-Sole unit in the heel, makes the Air Jordan 1 Low Triple White a favorite among Jordan enthusiasts looking for a crisp addition to their wardrobe.</p>
+        <span class="SizeTitle" id="JSTitle">Sizes:</span>
+        <div class="ShoeSizes" id="JShoeSize">
+
+            <div class="SSize">38</div >
+            <div class="SSize">39</div >
+            <div  class="SSize">40</div >
+            <div class="SSize">41</div >
+            <div  class="SSize">42</div >
+            <div  class="SSize">43</div >
+            <div class="SSize" >44</div >
+            <div class="SSize">45</div >
+            
+        </div>
+        <div class="Price" id="JPrice">
+            <span class="PriceTitle">Price: <span class="Amount">$149.99</span></span>
+        </div>
+        <div class="ProdButtons" id="JProdButtons">
+            <button class="BuyNow" id="JBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="JAdd"> ADD TO CART</button>
+        </div>
+        <div class="JClose">X</div>
+    </div>
+
+    
+ </div>
+  
+ <div class="MaxCard">
+       
+    <div class="ProdPic">
+        <img src="img/Casual/AirMaxCard.jpeg" alt="" id="img3">
+    </div>
+    
+    <div class="DetailCard" id="MDetail">
+        <div class="ProdName" id="MProdName">Nike Air Max 90 White</div>
+        <p class="ProdDesc" id="MDesc">
+            The Nike Air Max 90 Triple White exudes clean sophistication with its monochromatic design. Crafted from a mix of crisp white leather, mesh, and synthetic overlays, this shoe showcases the iconic Air Max paneling and a visible Air unit in the heel.  For a touch of contrast, a subtle Wolf Grey hue peeks through on the insole, while the waffle sole completes the timeless look.</p>
+        <div class="SizeTitle" id="MSTitle">Sizes:</div>
+        <div class="ShoeSizes" id="MShoeSize">
+
+            <div class="TSize">38</div >
+            <div class="TSize">39</div >
+            <div  class="TSize">40</div >
+            <div class="TSize">41</div >
+            <div  class="TSize">42</div >
+            <div  class="TSize">43</div >
+            <div class="TSize" >44</div >
+            <div class="TSize">45</div >
+            
+        </div>
+        <div class="Price" id="MPrice">
+            <span class="PriceTitle">Price: <span class="Amount">$149.99</span></span>
+        </div>
+        <div class="ProdButtons" id="MProdButtons">
+            <button class="AddtoCart" id="MAdd"> ADD TO CART</button>
+            <button class="BuyNow" id="MBuy"> BUY NOW  </button>
+           
+        </div>
+        <div class="MClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="GazCard">
+       
+    <div class="ProdPic">
+        <img src="img/Casual/GazelleCard.jpg" alt="" id="img4">
+    </div>
+    
+    <div class="DetailCard" id="GDetail">
+        <span class="ProdName" id="GProdName">Adidas Gazelle "Pre Loved Ink"</span>
+        <p class="ProdDesc" id="GProdDesc">
+            The adidas Gazelle Pre Loved Ink offers a vintage twist on a classic silhouette.  Featuring a premium leather upper in a deep, rich blue with subtle tonal variations, this shoe captures the essence of worn-in perfection.  Clean white accents on the three stripes and heel tab add a touch of contrast, while the gum rubber sole complements the overall retro vibe.</p>
+        <span class="SizeTitle" id="GSTitle">Sizes:</span>
+        <div class="ShoeSizes" id="GShoeSize">
+
+            <div class="GSize">38</div >
+            <div class="GSize">39</div >
+            <div  class="GSize">40</div >
+            <div class="GSize">41</div >
+            <div  class="GSize">42</div >
+            <div  class="GSize">43</div >
+            <div class="GSize" >44</div >
+            <div class="GSize">45</div >
+            
+        </div>
+        <div class="Price" id="GPrice">
+            <span class="PriceTitle">Price: <span class="Amount">$169.99</span></span>
+        </div>
+        <div class="ProdButtons" id="GProdButtons">
+            <button class="BuyNow" id="GBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="GAdd"> ADD TO CART</button>
+        </div>
+        <div class="GClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="PumaCard">
+       
+    <div class="ProdPic">
+        <img src="img/Casual/PumaSuede.avif" alt="" id="img5">
+    </div>
+    
+    <div class="DetailCard" id="PDetail">
+        <span class="ProdName" id="PProdName">Puma Suede Black</span>
+        <p class="ProdDesc" id="PProdDesc">
+            The Puma Suede exudes timeless simplicity with its clean lines and classic silhouette.  Made with premium suede for a luxurious feel, it features a minimalist design with a single Puma formstripe across the midfoot and the iconic Puma logo on the tongue and heel.  The vulcanized rubber sole provides both durability and a touch of vintage flair, making the Puma Suede a versatile sneaker that complements any casual outfit.
+        </p>
+        <span class="SizeTitle" id="PSTitle">Sizes:</span>
+        <div class="ShoeSizes" id="PShoeSize">
+
+            <div class="PSize">38</div >
+            <div class="PSize">39</div >
+            <div  class="PSize">40</div >
+            <div class="PSize">41</div >
+            <div  class="PSize">42</div >
+            <div  class="PSize">43</div >
+            <div class="PSize" >44</div >
+            <div class="PSize">45</div >
+            
+        </div>
+        <div class="Price" id="PPrice">
+            <span class="PriceTitle">Price: <span class="Amount">$189.99</span></span>
+        </div>
+        <div class="ProdButtons" id="PProdButtons">
+            <button class="BuyNow" id="PBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="PAdd"> ADD TO CART</button>
+        </div>
+        <div class="PClose">X</div>
+    </div>
+
+    
+ </div>
+
+ 
+ <div class="VejaCard">
+       
+    <div class="ProdPic">
+        <img src="img/Casual/VejaCard.jpg" alt="" id="img6">
+    </div>
+    
+    <div class="DetailCard" id="VDetail">
+        <span class="ProdName" id="VProdName">Veja Espelar</span>
+        <p class="ProdDesc" id="VProdDesc">
+            The Veja Espelar prioritizes both sustainability and style. Crafted from chrome-free, ecologically tanned leather, it offers a soft and luxurious feel while minimizing environmental impact. The Espelar features a sleek, low-top design with a clean silhouette and the signature Veja V logo on the side. Available in a variety of neutral colors,  this versatile sneaker pairs effortlessly with anything from dresses to jeans.
+        </p>
+        <span class="SizeTitle" id="VSTitle">Sizes:</span>
+        <div class="ShoeSizes" id="VShoeSize">
+
+            <div class="VSize">38</div >
+            <div class="VSize">39</div >
+            <div  class="VSize">40</div >
+            <div class="VSize">41</div >
+            <div  class="VSize">42</div >
+            <div  class="VSize">43</div >
+            <div class="VSize" >44</div >
+            <div class="VSize">45</div >
+            
+        </div>
+        <div class="Price" id="VPrice">
+            <span class="PriceTitle">Price: <span class="Amount">$199.99</span></span>
+        </div>
+        <div class="ProdButtons" id="VProdButtons">
+            <button class="BuyNow" id="VBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="VAdd"> ADD TO CART</button>
+        </div>
+        <div class="VClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="OtherItems">OTHER ITEMS</div>
+
+
+ <div class="containers">
+
+    <div class="slides">
+
+        <div class="items" style="background-image: url(img/Casual/AF1TWhite.jpg);">
+            <div class="contents">
+                <div class="dess" id="AFdesc">
+                    A clean icon, the Nike Air Force 1 in white goes with everything. Its crisp leather upper sits atop a classic white sole.</div>
+                <button class="AFMore">See More</button>  
+            </div>
+        </div>
+        
+         <div class="items" style="background-image: url(img/Casual/Palermo-Leather-Women\'s-Sneakers.avif);">
+              <div class="contents">
+                <div class="dess" id="Mdesc">
+                    Born in the 1970s as a tribute to the vibrant Sicilian capital, the Puma Palermo gained fame on the terraces of European football stadiums in the 80s.
+                </div>
+                <button class="PaMore">See More</button>  
+              </div>
+         </div>
+
+         <div class="items" style="background-image: url(img/Casual/OnitsukaCreamBlackGold.jpg);">
+            <div class="contents">
+              <div class="dess" id="OnDesc">
+                Combining classic style with a touch of luxury, the Onitsuka Tiger Tokuten in cream and gold offers a versatile look.
+              </div>
+              <button class="OnMore">See More</button>  
+            </div>
+        </div>
+
+        <div class="items" style="background-image: url(img/Casual/NB990V6\ Cream.jpg);">
+            <div class="contents">
+              <div class="dess" id="NBDesc">The New Balance 990v6 in cream offers a timeless aesthetic with a touch of modern comfort.</div>
+              <button class="NBMore">See More</button>  
+            </div>
+        </div>
+
+        <div class="items" style="background-image: url(img/Casual/StanSmithLux.avif);">
+            <div class="contents" >
+              <div class="dess" id="Gdesc">The adidas Stan Smith Lux elevates the classic sneaker with premium leather for a more luxurious feel.</div>
+              <button class="LuxMore">See More</button>  
+            </div>
+        </div>
+
+        <div class="items" style="background-image: url(img/Casual/NSBDunk.jpg);">
+            <div class="contents">
+              <div class="dess" id="Pdesc">he Nike SB Dunk features a gum sole, a translucent honey-colored outsole that offers a classic look and good grip on a skateboard.</div>
+              <button class="DMore">See More</button>  
+            </div>
+        </div>
+
+    </div>
+    
+    
+</div>
+<div class="buttons">
+        <button class="prevv"><i class="fa fa-angle-left" style="font-size:2rem"></i></button>
+        <button class="nextt"><i class="fa fa-angle-right" style="font-size:2rem"></i></button>
+</div>
+
+<div class="TokCard">
+       
+    <div class="ProdPics">
+        <img src="img/Casual/TokutenCard.jpg" alt="" id="img7">
+    </div>
+    
+    <div class="DetailCards">
+        <span class="ProdNames" id="TProdName">Tokuten Cream Black Gold</span>
+        <p class="ProdDescc" id="TProdDescc">The Onitsuka Tiger Mexico 66 in cream, black, and gold offers a twist on a classic. The cream base keeps it versatile, while the black and gold accents add a touch of luxury, making it a great choice for dressing up a casual outfit or adding a pop of color to a more formal look.</p>
+        <span class="SizeTitle" id="TSTitles">Sizes:</span>
+        <div class="ShoeSizess" id="TSSizes">
+
+            <div class="TSize">38</div >
+            <div  class="TSize">39</div >
+            <div  class="TSize">40</div >
+            <div  class="TSize">41</div >
+            <div   class="TSize">42</div >
+            <div  class="TSize">43</div >
+            <div  class="TSize" >44</div >
+            <div  class="TSize">45</div >
+            
+        </div>
+        <div class="Prices" id="TokPrice">
+            <span class="PricesTitle">Price: <span class="Amount">$179.99</span></span>
+        </div>
+        <div class="ProdButtonss" id="TButtons">
+            <button class="BuyNow" id="TBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="TAdd"> ADD TO CART</button>
+        </div>
+        <div class="TClose">X</div>
+    </div>
+
+    
+ </div>
+
+
+ <div class="PalCard">
+       
+    <div class="ProdPics">
+        <img src="img/Casual/PalermoCard.jpeg" alt="" id="img8">
+    </div>
+    
+    <div class="DetailCards">
+        <span class="ProdNames" id="PalProdName">Puma Palermo White/Black</span>
+        <p class="ProdDescc" id="PaProdDescc">Puma's Palermo in cream, black, and gold offers a sophisticated twist on a sporty silhouette. The classic cream base provides timeless appeal, while the black and gold accents add a touch of unexpected luxury. This combination makes them perfect for elevating a casual outfit or adding a touch of edge to a smarter look.</p>
+        <span class="SizeTitle" id="PSTitles">Sizes:</span>
+        <div class="ShoeSizess" id="PSSizes">
+
+            <div class="PaSize">38</div >
+            <div  class="PaSize">39</div >
+            <div  class="PaSize">40</div >
+            <div  class="PaSize">41</div >
+            <div   class="PaSize">42</div >
+            <div  class="PaSize">43</div >
+            <div  class="PaSize" >44</div >
+            <div  class="PaSize">45</div >
+            
+        </div>
+        <div class="Prices" id="PaPrice">
+            <span class="PricesTitle" id="PPriceTitle">Price: <span class="Amount">$179.99</span></span>
+        </div>
+        <div class="ProdButtonss" id="PaPButtons">
+            <button class="BuyNow" id="PaBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="PaAdd"> ADD TO CART</button>
+        </div>
+        <div class="PaClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="NBCard">
+       
+    <div class="ProdPics">
+        <img src="img/Casual/NBCard.jpg" alt="" id="img9">
+    </div>
+    
+    <div class="DetailCards">
+        <span class="ProdNames" id="NBProdName">New Balance 990V6 Cream </span>
+        <p class="ProdDescc" id="NBProdDescc">The New Balance 990v6 in cream and beige exudes a timeless elegance. The neutral palette combines a clean cream mesh upper with soft beige overlays, creating a versatile shoe that pairs effortlessly with jeans, chinos, or even a skirt. This subtle colorway offers a touch of modern sophistication without sacrificing the classic comfort and durability that the 990v6 is known for.</p>
+        <span class="SizeTitle" id="NBSTitles">Sizes:</span>
+        <div class="ShoeSizess" id="NBSSizes">
+
+            <div class="NBSize">38</div >
+            <div  class="NBSize">39</div >
+            <div  class="NBSize">40</div >
+            <div  class="NBSize">41</div >
+            <div   class="NBSize">42</div >
+            <div  class="NBSize">43</div >
+            <div  class="NBSize" >44</div >
+            <div  class="NBSize">45</div >
+            
+        </div>
+        <div class="Prices" id="NBPrice">
+            <span class="PricesTitle" >Price: <span class="Amount">$189.99</span></span>
+        </div>
+        <div class="ProdButtonss" id="NBPButtons">
+            <button class="BuyNow" id="NBBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="NBAdd"> ADD TO CART</button>
+        </div>
+        <div class="NBClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="LuxCard">
+       
+    <div class="ProdPics">
+        <img src="img/Casual/StanSmithLuxCard.avif" alt="" id="img10">
+    </div>
+    
+    <div class="DetailCards">
+        <span class="ProdNames" id="LuxProdName">Adidas Stan Smith Lux </span>
+        <p class="ProdDescc" id="LProdDescc">The adidas Stan Smith Lux elevates the iconic silhouette with a touch of understated luxury.  Its premium leather upper in a crisp cream or beige replaces the traditional smooth leather, offering a more sophisticated look that feels soft and supple. Subtle metallic details, like the heel branding or eyelets, add a hint of shine without overpowering the timeless design.</p>
+        <span class="SizeTitle" id="LSTitles">Sizes:</span>
+        <div class="ShoeSizess" id="LSSizes">
+
+            <div class="LSize">38</div >
+            <div  class="LSize">39</div >
+            <div  class="LSize">40</div >
+            <div  class="LSize">41</div >
+            <div   class="LSize">42</div >
+            <div  class="LSize">43</div >
+            <div  class="LSize" >44</div >
+            <div  class="LSize">45</div >
+            
+        </div>
+        <div class="Prices"id="LPrice">
+            <span class="PricesTitle" >Price: <span class="Amount">$149.99</span></span>
+        </div>
+        <div class="ProdButtonss" id="LPButtons">
+            <button class="BuyNow" id="LBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="LAdd"> ADD TO CART</button>
+        </div>
+        <div class="LClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="DunkCard">
+       
+    <div class="ProdPics">
+        <img src="img/Casual/DunkCard.jpg" alt="" id="img11">
+    </div>
+    
+    <div class="DetailCards">
+        <span class="ProdNames" id="DProdName">Nike SB Dunk Gum Sole </span>
+        <p class="ProdDescc" id="DProdDescc">Embracing a vintage aesthetic with modern performance, the Nike SB Dunk boasts a gum sole. This translucent, honey-colored outsole adds a touch of classic style to the shoe.  Beyond aesthetics, the gum sole provides excellent grip on a skateboard, making it a functional choice for skaters while still offering a timeless look for everyday wear.</p>
+        <span class="SizeTitle" id="DSTitles">Sizes:</span>
+        <div class="ShoeSizess" id="DSSizes">
+
+            <div class="DSize">38</div >
+            <div  class="DSize">39</div >
+            <div  class="DSize">40</div >
+            <div  class="DSize">41</div >
+            <div   class="DSize">42</div >
+            <div  class="DSize">43</div >
+            <div  class="DSize" >44</div >
+            <div  class="DSize">45</div >
+            
+        </div>
+        <div class="Prices" id="DPrice">
+            <span class="PricesTitle" >Price: <span class="Amount">$129.99</span></span>
+        </div>
+        <div class="ProdButtonss" id="DPButtons">
+            <button class="BuyNow" id="DBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="DAdd"> ADD TO CART</button>
+        </div>
+        <div class="DClose">X</div>
+    </div>
+
+    
+ </div>
+
+ <div class="AFCard">
+       
+    <div class="ProdPics">
+        <img src="img/Casual/AF1Card.jpeg" alt="" id="img12">
+    </div>
+    
+    <div class="DetailCards">
+        <span class="ProdNames" id="AiProdName">Nike Air Force 1 Triple White </span>
+        <p class="ProdDescc" id="AiProdDescc">The Nike Air Force 1 in white transcends trends. Its crisp leather upper sits atop a clean white sole, creating a minimalist masterpiece. This iconic silhouette offers unmatched versatility, seamlessly transitioning from the basketball court to the street and effortlessly complementing any outfit.</p>
+        <span class="SizeTitle" id="AiSTitles">Sizes:</span>
+        <div class="ShoeSizess" id="AiSSizes">
+
+            <div class="AiSize">38</div >
+            <div  class="AiSize">39</div >
+            <div  class="AiSize">40</div >
+            <div  class="AiSize">41</div >
+            <div   class="AiSize">42</div >
+            <div  class="AiSize">43</div >
+            <div  class="AiSize" >44</div >
+            <div  class="AiSize">45</div >
+            
+        </div>
+        <div class="Prices"id="AiPrice">
+            <span class="PricesTitle" >Price: <span class="Amount">$114.99</span></span>
+        </div>
+        <div class="ProdButtonss" id="AiButtons">
+            <button class="BuyNow" id="AiBuy"> BUY NOW  </button>
+            <button class="AddtoCart" id="AiAdd"> ADD TO CART</button>
+        </div>
+        <div class="AiClose">X</div>
+    </div>
+
+    
+ </div>
+
+  <script src="Casual Shoes.js"></script>
+
+</body>
+</html>

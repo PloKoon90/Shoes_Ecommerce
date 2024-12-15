@@ -1,0 +1,1286 @@
+@import url('https://fonts.googleleapis.com/css?famil=Roboto:400.500,700');
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+@font-face {
+  font-family: UrbanCity;
+  src: url(UrbanJungleDEMO.otf);
+}
+html{
+    scroll-behavior: smooth;
+    
+  }
+
+  body {
+      height: 320vh;
+      font-family: "Lato", sans-serif;
+      padding: 0;
+      margin: 0;
+       overflow: hidden; 
+      overflow-y: visible;  
+      scroll-behavior: smooth;
+      background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  }
+  
+
+nav{
+    background-color: #111;
+    color: white;
+    margin: 0;
+     padding: 20px 50px;
+     width: 100vw;
+}
+
+.LOGO{
+  font-family: UrbanCity;
+  font-size: 2rem;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-left: -40px;
+  margin-top: -30px;
+  cursor: pointer;
+  color: #369e62;
+}
+
+.navTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex; /* Arrange elements horizontally */
+  margin: 10px auto; /* Add some margin for spacing */
+  width: 50%; /* Adjust width as needed */
+  margin-right: 70px;
+}
+
+#search-input {
+  flex: 1;  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px; 
+  font-size: 16px;
+}
+
+#SearchBar{
+  position: relative;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+#search-button {
+  padding: 10px 20px;  
+  background-color: #369e62;
+  color: white;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;  
+}
+
+.limitedOffer{
+    font-size: 1.7rem;
+    border-bottom: 1px solid blue;
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+     margin-right: 50px;
+     margin-top: 20px;
+     font-weight: 400;
+     font-size: 1.4rem;
+     cursor: pointer;
+}
+
+#HOME{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+#HOME:hover{
+  color:  #1f0085;
+  transition: 0.4s;
+}
+
+.menuItem:hover{
+     color:  #1f0085;
+     transition: 0.4s;
+}
+
+
+.shopping{
+  margin-right: 10px;
+}
+#CartIcon{
+  width: 50px;
+  font-size: 31px;
+  margin-right: 5px;
+  cursor: pointer;
+ }
+
+ .quantity{
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  margin-top: 15px;
+  padding: 3px 10px;
+  cursor: pointer;
+ }
+
+
+ .CartCheck{
+   width: 370px;
+   height: 600px;
+   position: absolute;
+   right: 0;
+   margin-right: 10px;
+   margin-top: -70px;
+   background-color: white;
+   z-index: 1;
+   transition: 1s ease-in-out;
+   display: none;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+
+ .CartTitle{
+   text-align: center;
+   font-size: 1.5rem;
+   position: absolute;
+   margin-left: 100px;
+   margin-top: 10px;
+ }
+
+ .FinalCheck{
+   font-size: 1.7rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 5px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+ }
+
+ .CartExit{
+   font-size: 1.3rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   position: absolute;
+   right: 0;
+   margin-right: 5px;
+   cursor: pointer;
+ }
+
+ .cart-items{
+   justify-content: space-between;
+   padding: 15px;
+   
+ }
+ 
+ .cart-item-details{
+   margin-right: 20px;
+   margin-bottom: 20px;
+   display: flex;
+   gap:20px;
+   padding-bottom: 4px;
+   border-bottom: 2px solid black;
+ 
+ }
+ 
+ .cart-items-title{
+   text-align: center;
+   font-weight: bold;
+ }
+ 
+ .ItemInput{
+   color: black;
+   border: #111;
+ }
+ 
+ 
+ .Title{
+    font-family: UrbanCity;
+    font-size: 4rem;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+
+ .container{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 700px;
+    height: 400px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 10px #dbdbdb;
+    border-radius: 20px;
+}
+
+
+
+
+
+.container .slide .item{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #505050;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+    transition: 0.6s;
+}
+
+
+
+.slide .item:nth-child(1),
+.slide .item:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%; 
+    
+}
+
+ 
+.slide .item:nth-child(3){
+   left: 90%;
+}
+.slide .item:nth-child(4){
+    left: calc(90% + 220px);
+ }
+ .slide .item:nth-child(5){
+    left: calc(90% + 440px);
+ }
+
+ .slide .item:nth-child(n + 6){
+    left: calc(90% + 660px);
+    opacity: 0;
+ }
+
+ 
+ .item .content{
+    position: absolute;
+    top: 70%;
+    left: 30px;
+    width: 300px;
+    text-align: left;
+    color: #b3aaaa;
+    transform: translate(0, -50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: none;
+ }
+
+ .slide .item:nth-child(2) .content{
+    display: block;
+ }
+
+ .content .des{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+ }
+
+.MMore, .GMore,.VMore{
+   width: 110px;
+   position: absolute;
+   bottom: -25px;
+   left: 30px;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   font-size: 1rem;
+   margin-top: -70px;
+   margin-left: -30px;
+   opacity: 0;
+   animation: animate 1s ease-in-out 0.6s 1 forwards;
+   z-index: 4;
+}
+
+.JMore{
+   width: 110px;
+   position: absolute;
+   bottom: -25px;
+   left: 30px;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   font-size: 1rem;
+   margin-top: -40px;
+   margin-left: -30px;
+   opacity: 0;
+   animation: animate 1s ease-in-out 0.6s 1 forwards;
+   z-index: 4;
+}
+
+.PMore{
+   width: 110px;
+   position: absolute;
+   bottom: -45px;
+   left: 30px;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   font-size: 1rem;
+   margin-top: -70px;
+   margin-left: -30px;
+   opacity: 0;
+   animation: animate 1s ease-in-out 0.6s 1 forwards;
+   z-index: 4;
+}
+
+.AMore{
+   width: 110px;
+   position: absolute;
+   bottom: -45px;
+   left: 30px;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   font-size: 1rem;
+   margin-top: -70px;
+   margin-left: -30px;
+   opacity: 0;
+   animation: animate 1s ease-in-out 0.6s 1 forwards;
+   z-index: 4;
+}
+
+.VMore{
+   width: 110px;
+   position: absolute;
+   bottom: -45px;
+   left: 30px;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   font-size: 1rem;
+   margin-top: -70px;
+   margin-left: -30px;
+   opacity: 0;
+   animation: animate 1s ease-in-out 0.6s 1 forwards;
+   z-index: 4;
+}
+
+#gaz{
+   margin-bottom: -20px;
+}
+
+#jordan{
+   
+   margin-top: -20px;
+}
+
+
+
+
+
+ @keyframes animate {
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+ }
+
+ .button{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    
+ }
+
+ .button button{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    border: 1px solid;
+    font-weight: bolder;
+    transition: 0.3s;
+   border-radius: 50px;
+
+ }
+
+ .button button:hover{
+    color: #160163;
+ }
+
+
+
+
+
+
+ .AsicsCard, .JordanCard, .MaxCard, .GazCard, .PumaCard, .VejaCard{
+   display: none;
+   flex-direction: row;
+   position: absolute;
+   left: 20%;
+   top: 40%;
+   width: 900px;
+   height: 500px;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+#JProdName, #MProdName, #GProdName{
+   font-size: 2.2rem;
+}
+
+#GProdName{
+   font-size: 2.2rem;
+   margin-left: -10px;
+   margin-top: 5px;
+}
+
+#VProdName{
+   margin-left: 90px;
+}
+#JShoeSize{
+   margin-top: 335px;
+}
+#MShoeSize{
+   margin-top: 280px;
+   cursor: pointer;
+   position: absolute;
+}
+
+#PShoeSize{
+   margin-top: 325px;
+}
+
+#VShoeSize{
+   margin-top: 330px;
+}
+
+#GShoeSize{
+   margin-top: 260px;
+}
+#AShoeSize{
+   margin-top: 250px;
+}
+
+#JProdButtons{
+   margin-top: -130px;
+}
+
+#VProdButtons{
+   margin-top: -130px;
+}
+
+#AProdButtons{
+   margin-top: -60px;
+}
+
+#MProdButtons{
+   position: absolute;
+   display: flex;
+   margin-top: 270px;
+   margin-left: 140px;
+}
+
+#MAdd{
+   position: absolute;
+   margin-left: 500px;
+}
+ 
+#VProdButtons{
+   margin-top: -160px;
+}
+
+#GProdButtons{
+   margin-top: -70px;
+}
+
+#PProdButtons{
+   margin-top: -128px;
+}
+
+#AProdButtons{
+   margin-top: -80px;
+   margin-left: 5px;
+}
+
+#GProdButtons{
+   margin-top: -100px;
+}
+
+#PProdButtons{
+   margin-top: -160px;
+}
+
+#JProdButtons{
+   margin-top: -170px;
+}
+
+.ProdPic{
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   width: 100px;
+   height: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.ShoeSizes{
+   display: flex;
+   flex-direction: row;
+   margin-left: 400px;
+   cursor: pointer;
+   position: absolute;
+ }
+
+ #NBPButtons{
+   margin-top: -90px;
+ }
+
+ #LPButtons{
+   margin-top: -110px;
+ }
+ 
+ .FSize, .SSize,.TSize, .GSize, .PSize, .VSize{
+   margin-top: 3px;
+   border: solid 1px rgba(0, 0, 0, 0.925);
+   width: 30px;
+   margin-right: 7px;
+   padding: 3px;
+   border-radius: 3px;
+   cursor: pointer;
+   color: rgb(0, 0, 0);
+   text-align: center;
+ }
+
+
+.DetailCard{
+   display: flex;
+   left: 50px;
+   flex-direction: column;
+   float: right;
+}
+
+.ProdName{
+   font-size: 3rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   position: relative;
+   left: 45%;
+   margin-left: 50px;
+}
+
+.ProdDesc{
+   width: 450px;
+   font-size: 1.2rem;
+   position: inherit;
+   margin-left: 400px;
+   color: rgb(49, 49, 49);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.Close, .JClose, .MClose, .GClose, .PClose, .VClose{
+   position: absolute;
+   font-size: 1.2rem;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   height: 20px;
+   padding: 3px;
+   margin-left: 881px;
+   cursor: pointer;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6{
+   object-fit: cover;
+   width: 300px;
+   height: 300px;
+   position: absolute;
+}
+ .ProdButtons{
+   margin-top: -115px;
+   display: flex;
+   flex-direction: row;
+ }
+
+.AddtoCart{
+   width: 120px;
+   height: 40px;
+   margin-left: 20px;
+   margin-top: 170px;
+   color: white;
+   background-color: black;
+   cursor: pointer;
+}
+
+.AddtoCart:hover{
+   transform: translateY(-5px);
+   color: black;
+   background-color: white;
+   transition: 0.7s;
+}
+.AddtoCart:active{
+   color: white;
+   background-color: black;
+   transition: 0.7s;
+   transform: translateY(5px);
+}
+
+.BuyNow{
+   width: 120px;
+   height: 40px;
+   margin-left: 630px;
+   margin-top: 170px;
+   color: white;
+   background-color: black;
+   cursor: pointer;
+}
+
+.BuyNow:hover{
+   transform: translateY(-5px);
+   color: black;
+   background-color: white;
+   transition: 0.7s;
+}
+.BuyNow:active{
+   color: white;
+   background-color: black;
+   transition: 0.7s;
+   transform: translateY(5px);
+}
+
+#Cart{
+   color:black
+}
+.SizeTitle{
+   font-size: 1.3rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold;
+   margin-left: 400px;
+   margin-top: 5px;
+ }
+
+.Price{
+   position: inherit;
+   margin-left: 400px;
+   margin-top: 45px;
+   font-size: 1.3rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold;
+}
+.PriceTitle{
+   color: black;
+}
+
+.Amount{
+   color: darkorange;
+   font-size: 1.5rem;
+}
+
+.OtherItems{
+   font-family: UrbanCity;
+   font-size: 4rem;
+   word-spacing: 10px;
+   letter-spacing: 5px;
+   position: absolute;
+   top: 110%;
+   margin-left: 30px;
+   color:white;
+}
+
+
+@media screen and (max-width:375px){
+
+.navTop{
+   position:absolute;
+   display: flex;
+   flex-direction: row;
+}
+.LOGO{
+  position: absolute;
+ color: #369e62;
+ font-size: 1.3rem;
+ margin-top: -25px;
+}
+
+.shopping{
+   position: relative;
+   left: 170%;
+}
+
+.quantity{
+   margin-top: -17px;
+   font-size: 15px;
+}
+
+#SearchBar{
+   display: none;
+}
+
+#CartIcon{
+   font-size: 20px;
+}
+
+.navBottom{
+   position: relative;
+   margin-top: 20px;
+   margin-right: 25px;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+}
+
+.menuItem{
+   font-size: 15px;
+   margin-right: 25px;
+}
+
+.Title{
+   position: absolute;
+   text-align: center;
+   margin-top: 17px;
+   margin-right: 60px;
+}
+
+.container{
+   position: absolute;
+   margin-top: 10px;
+   margin-left: -30px;
+   width: 270px;
+}
+
+.button{
+   margin-bottom: -10px;
+}
+
+
+.ProdPic{
+   position: absolute;
+   height: 220px;
+   width: 220px;
+}
+
+#img3, #img6, #img1, #img2, #img4, #img5{
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 40px;
+   height: 220px;
+   width: 220px;
+}
+.MaxCard{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 240px;
+   width: 325px;
+   height: 650px;
+}
+#MDetail{
+   position: absolute;
+   right: 180%;
+}
+#MProdName{
+   display: flex;
+   margin-left: -12px;
+   font-size: 25px;
+   width: 340px;
+   margin-top: 20px;
+}
+
+.MClose{
+   position: absolute;
+   right: 30px;
+}
+
+#MDesc{
+   position: absolute;
+   width: 300px;
+   font-size: 13px;
+   margin-left: -40px;
+   margin-top: 310px;
+   text-align: center;
+}
+
+#MSTitle{
+   font-size: 17px;
+   position: absolute;
+   margin-left: -30px;
+   margin-top: 460px;
+}
+
+#MShoeSize{
+   position: absolute;
+   font-size: 15px;
+   margin-left: -35px;
+   margin-top: 490px;
+}
+
+
+.PriceTitle{
+   font-size: 17px;
+}
+
+#MPrice{
+   position: absolute;
+   font-size: 18px;
+   margin-left: -30px;
+   margin-top: 525px;
+}
+
+#MProdButtons{
+   position: relative;
+   display: flex;
+   width: 440px;
+   margin-left: -490px;
+}
+#MAdd{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 280px;
+   margin-left: 640px;
+}
+
+#MBuy{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 280px;
+   margin-left: 520px;
+}
+
+.VejaCard{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 240px;
+   width: 325px;
+   height: 650px;
+}
+#VDetail{
+   position: absolute;
+   right: 180%;
+}
+#VProdName{
+   display: flex;
+   margin-left: 60px;
+   font-size: 25px;
+   width: 340px;
+   margin-top: 20px;
+}
+
+.VClose{
+   position: absolute;
+   right: 30px;
+}
+
+#VProdDesc{
+   position: absolute;
+   width: 300px;
+   font-size: 13px;
+   margin-left: -40px;
+   margin-top: 310px;
+   text-align: center;
+}
+
+#VSTitle{
+   font-size: 17px;
+   position: absolute;
+   margin-left: -30px;
+   margin-top: 460px;
+}
+
+#VShoeSize{
+   position: absolute;
+   font-size: 15px;
+   margin-left: -35px;
+   margin-top: 490px;
+}
+
+ 
+
+#VPrice{
+   position: absolute;
+   font-size: 18px;
+   margin-left: -30px;
+   margin-top: 525px;
+}
+
+#VProdButtons{
+   position: relative;
+   display: flex;
+   width: 440px;
+   margin-left: -490px;
+}
+ 
+#VAdd{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 710px;
+   margin-left: 640px;
+}
+#VBuy{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 710px;
+   margin-left: 520px;
+}
+
+
+.AsicsCard{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 240px;
+   width: 325px;
+   height: 650px;
+}
+
+#AProdName{
+   display: flex;
+   margin-left: -130px;
+   font-size: 25px;
+   width: 340px;
+   margin-top: 20px;
+}
+
+.Close{
+   position: absolute;
+   margin-left: 0px;
+}
+
+#AProdDesc{
+   position: absolute;
+   width: 300px;
+   font-size: 13px;
+   margin-left: 20px;
+   margin-top: 310px;
+   text-align: center;
+}
+
+#ASTitle{
+   font-size: 17px;
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 460px;
+}
+
+#AShoeSize{
+   position: absolute;
+   font-size: 15px;
+   margin-left: 20px;
+   margin-top: 490px;
+}
+
+
+
+#APrice{
+   position: absolute;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-top: 525px;
+}
+
+#AProdButtons{
+   position: relative;
+   display: flex;
+   width: 440px;
+   margin-left: 20px;
+}
+ 
+#AAdd{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 630px;
+   margin-left: 190px;
+}
+#ABuy{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 630px;
+   margin-left: 70px;
+}
+
+
+.GazCard{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 240px;
+   width: 325px;
+   height: 650px;
+}
+
+#GProdName{
+   display: flex;
+   margin-left: -170px;
+   font-size: 20px;
+   width: 340px;
+   margin-top: 20px;
+}
+
+.GClose{
+   position: absolute;
+   margin-left: 0px;
+}
+
+#GProdDesc{
+   position: absolute;
+   width: 300px;
+   font-size: 13px;
+   margin-left: 20px;
+   margin-top: 310px;
+   text-align: center;
+}
+
+#GSTitle{
+   font-size: 17px;
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 460px;
+}
+
+#GShoeSize{
+   position: absolute;
+   font-size: 15px;
+   margin-left: 20px;
+   margin-top: 490px;
+}
+
+
+
+#GPrice{
+   position: absolute;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-top: 525px;
+}
+
+#GProdButtons{
+   position: relative;
+   display: flex;
+   width: 440px;
+   margin-left: 20px;
+}
+ 
+#GAdd{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 650px;
+   margin-left: 190px;
+}
+#GBuy{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 650px;
+   margin-left: 70px;
+}
+
+.PumaCard{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 240px;
+   width: 325px;
+   height: 650px;
+}
+
+#PProdName{
+   display: flex;
+   margin-left: -170px;
+   font-size: 20px;
+   width: 340px;
+   margin-top: 20px;
+}
+
+.PClose{
+   position: absolute;
+   margin-left: 0px;
+}
+
+#PProdDesc{
+   position: absolute;
+   width: 300px;
+   font-size: 13px;
+   margin-left: 20px;
+   margin-top: 310px;
+   text-align: center;
+}
+
+#PSTitle{
+   font-size: 17px;
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 460px;
+}
+
+#PShoeSize{
+   position: absolute;
+   font-size: 15px;
+   margin-left: 20px;
+   margin-top: 490px;
+}
+
+
+#PPrice{
+   position: absolute;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-top: 525px;
+}
+
+#PProdButtons{
+   position: relative;
+   display: flex;
+   width: 440px;
+   margin-left: 20px;
+}
+ 
+#PAdd{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 710px;
+   margin-left: 190px;
+}
+#PBuy{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 710px;
+   margin-left: 70px;
+}
+.JordanCard{
+   position: absolute;
+   margin-left: -60px;
+   top: 240px;
+   width: 345px;
+   height: 650px;
+}
+
+#JProdName{
+   display: flex;
+   margin-left: -170px;
+   font-size: 20px;
+   width: 340px;
+   margin-top: 20px;
+}
+
+.JClose{
+   position: absolute;
+   margin-left: 0px;
+}
+
+#JProdDesc{
+   position: absolute;
+   width: 300px;
+   font-size: 13px;
+   margin-left: 20px;
+   margin-top: 310px;
+   text-align: center;
+}
+
+#JSTitle{
+   font-size: 17px;
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 480px;
+}
+
+#JShoeSize{
+   position: absolute;
+   font-size: 15px;
+   margin-left: 20px;
+   margin-top: 510px;
+}
+
+
+#JProdButtons{
+   position: relative;
+   display: flex;
+   width: 440px;
+   margin-left: 20px;
+}
+ 
+#JAdd{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 710px;
+   margin-left: 190px;
+}
+#JBuy{
+   position: absolute;
+   width: 110px;
+   word-wrap: normal;
+   margin-top: 710px;
+   margin-left: 70px;
+}
+
+.OtherItems{
+   text-align: center;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 30px;
+   font-size: 2.5rem;
+}
+
+
+
+
+}
+   
